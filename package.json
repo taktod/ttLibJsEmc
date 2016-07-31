@@ -1,0 +1,14 @@
+{
+  "name": "ttlibjsemc",
+  "version": "0.1.0",
+  "description": "taktod's js library with emscripten",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taktod",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "ttlibjs": "github:taktod/ttLibJs#096b94d907fc1628e7d"
+  }
+}

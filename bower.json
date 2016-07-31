@@ -1,0 +1,21 @@
+{
+  "name": "ttlibjsemc",
+  "description": "taktod's js library with emscripten",
+  "main": "ttLibJsEmc.js",
+  "authors": [
+    "taktod"
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/js/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ttlibjs": "git@github.com:taktod/ttLibJs#096b94d907fc1628e7d"
+  }
+}
