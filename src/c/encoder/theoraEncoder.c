@@ -5,9 +5,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../../native/libs/include/ttLibC/frame/video/yuv420.h"
-#include "../../../native/libs/include/ttLibC/frame/video/theora.h"
-#include "../../../native/libs/include/ttLibC/encoder/theoraEncoder.h"
+#include <ttLibC/frame/video/yuv420.h>
+#include <ttLibC/frame/video/theora.h>
+#include <ttLibC/encoder/theoraEncoder.h>
 
 typedef bool (* encodeCallback)(
 		uint8_t *theora,

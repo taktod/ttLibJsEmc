@@ -5,9 +5,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../../native/libs/include/ttLibC/encoder/opusEncoder.h"
-#include "../../../native/libs/include/ttLibC/frame/audio/pcms16.h"
-#include "../../../native/libs/include/ttLibC/frame/audio/opus.h"
+#include <ttLibC/encoder/opusEncoder.h>
+#include <ttLibC/frame/audio/pcms16.h>
+#include <ttLibC/frame/audio/opus.h>
 
 typedef bool (* encodeCallback)(
 		uint8_t *opus,

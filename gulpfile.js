@@ -25,7 +25,7 @@ var emcc = function(srcs, funcs, libs, output, postJs, option) {
         funcs2.push('\'_' + func + '\'');
     });
     return ['emcc', srcs.join(' '), '-o', output, '-s EXPORTED_FUNCTIONS="[', funcs2.join(','),
-            ']" -s RESERVED_FUNCTION_POINTERS=40 -s ASSERTIONS=2 -L./native/libs/lib/', libs.join(' '),
+            ']" -s RESERVED_FUNCTION_POINTERS=40 -s ASSERTIONS=2 -I./native/libs/include/ -L./native/libs/lib/', libs.join(' '),
             '-O2 --post-js',
             postJs,
             option

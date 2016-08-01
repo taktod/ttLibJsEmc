@@ -5,9 +5,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../../native/libs/include/ttLibC/decoder/opusDecoder.h"
-#include "../../../native/libs/include/ttLibC/frame/audio/pcms16.h"
-#include "../../../native/libs/include/ttLibC/frame/audio/opus.h"
+#include <ttLibC/decoder/opusDecoder.h>
+#include <ttLibC/frame/audio/pcms16.h>
+#include <ttLibC/frame/audio/opus.h>
 
 typedef bool (* decodeCallback)(
 		uint8_t *pcm,

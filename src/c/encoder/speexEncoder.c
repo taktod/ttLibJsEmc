@@ -5,9 +5,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../../native/libs/include/ttLibC/encoder/speexEncoder.h"
-#include "../../../native/libs/include/ttLibC/frame/audio/pcms16.h"
-#include "../../../native/libs/include/ttLibC/frame/audio/speex.h"
+#include <ttLibC/encoder/speexEncoder.h>
+#include <ttLibC/frame/audio/pcms16.h>
+#include <ttLibC/frame/audio/speex.h>
 
 typedef bool (* encodeCallback)(
 		uint8_t *speex,

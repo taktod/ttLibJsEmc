@@ -4,8 +4,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../../native/libs/include/ttLibC/resampler/speexdspResampler.h"
-#include "../../../native/libs/include/ttLibC/frame/audio/pcms16.h"
+#include <ttLibC/resampler/speexdspResampler.h>
+#include <ttLibC/frame/audio/pcms16.h>
 
 typedef struct speexdspResampler_t{
 	// resamplerオブジェクト

@@ -5,8 +5,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../../native/libs/include/ttLibC/frame/video/theora.h"
-#include "../../../native/libs/include/ttLibC/decoder/theoraDecoder.h"
+#include <ttLibC/frame/video/theora.h>
+#include <ttLibC/decoder/theoraDecoder.h>
 
 typedef bool (* decodeCallback)(
 		uint8_t *y,
