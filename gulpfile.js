@@ -154,7 +154,6 @@ gulp.task('default', [
     'clean:dest',
     'make:ttLibJsEmc',
     'make:app',
-    'make:theoraEncoder',
     'copy:html',
     'copy:bower',
     'watch'

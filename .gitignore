@@ -1,0 +1,13 @@
+/.vscode/
+/dest
+/native/*
+!/native/makenative.sh
+!/native/ogg_configure.patch
+/node_modules
+/**/.DS_Store
+/src/js
+.emc.js
+.project
+.theoraEncoder.js
+/typings
+server_*
