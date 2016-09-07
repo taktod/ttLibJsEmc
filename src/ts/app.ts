@@ -40,7 +40,7 @@ $(() => {
                             u, uStride,
                             v, vStride);
                         return true;
-                    })
+                    });
                 });
                 requestAnimationFrame(<FrameRequestCallback>arguments.callee);
             })();
