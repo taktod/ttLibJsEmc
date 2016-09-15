@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "ttlibjs": "git@github.com:taktod/ttLibJs#dc7feeb0ec13dd365c620f5dd78e1c6f9dffc237"
+    "ttlibjs": "git://github.com/taktod/ttLibJs#dc7feeb0ec13dd365c620f5dd78e1c6f9dffc237"
   }
 }
